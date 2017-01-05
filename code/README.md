@@ -36,5 +36,5 @@
 ![git-flow][2]
 
 
-[1]: ../../images/code/git-flow.png
-[2]: ../../images/code/git-flow2.png
+[1]: ../images/code/git-flow.png
+[2]: ../images/code/git-flow2.png
