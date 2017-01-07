@@ -103,14 +103,16 @@ Release Note 是一个 `yaml` 文件，内容格式为 [reStructuredText](http:/
 
 通过命令 `reno report <path-to-git-repository>` 生成某一项目的 Releases Notes，例如：
 
-    ➜  community reno report neutron
+    ➜  ~ reno report neutron
 
 所有的信息以屏幕输出的形式展现，也可生成特定分支的 Release Notes，例如：
 
-    ➜  community reno report neutron --branch origin/stable/liberty
+    ➜  ~ reno report neutron --branch origin/stable/liberty
 
 ## 关于 Release Notes
 
 很多情况下，当研发开发完成新的功能开发、Bug 修复、或者性能提升后，前端人员（销售人员、售前人员）没有固定的渠道获得这些信息。通过 Release Notes 可以很好的解决这一问题，当研发人员完成相关工作后，由项目相关人员完成相关 Release Notes 的书写，并提交到代码仓库，最终统一显示在固定前端页面（目前尚未有此页面），以便于信息的及时传递。
+
+推荐的 Release Notes 的提交方法是，对于重要的 Feature 的 Release Notes ，由每组的 Team Leader 各自总结本组在研发周期内的最后一个 Tag 后（ 通常是 RC1 ）统一提交，对于严重 Bugfix 和重要 Feature Enhancement 的 Release Notes，由每组的 Team Leader 随时提交。对于最终所有项目 Release Notes 随时更新。
 
 [1]: ../images/release_notes/release.png
