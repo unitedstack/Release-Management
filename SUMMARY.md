@@ -10,6 +10,5 @@
 * [包管理](packaging/README.md)
 * [Release Note 管理](release-note/README.md)
 * [交付管理](deliver/README.md)
-* [变更管理](upgrade/README.md)
 * [代码管理](code/README.md)
 
