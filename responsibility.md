@@ -8,8 +8,9 @@
 4. 定义版本规则
 5. 定义和维护发布工具
 6. 依据流程发布公司产品
+7. 对产品的最终质量负责
 
-对于 release team member 的要求：
+对于 release team member 的技能要求：
 
 1. 熟悉 OpenStack 社区项目
 2. 熟悉 Python，Shell 脚本
